@@ -102,7 +102,7 @@ var aesthetic_text = document.getElementById( "aesthetic_text" );
 // Set pointer-events none as default
 aesthetic_text.style.pointerEvents = "none";
 
-my_text.addEventListener( "keyup", function() {
+my_text.addEventListener( "input", function() {
   aesthetic_text.value = "";
   var val = this.value;
   val = val.split( "" );
